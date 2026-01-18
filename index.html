@@ -1,16 +1,20 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="uk">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <script src="script.js" type="module" defer></script>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/3.0.1/modern-normalize.min.css" integrity="sha512-q6WgHqiHlKyOqslT/lgBgodhd03Wp4BEqKeW6nNtlOY4quzyG3VoQKFrieaCeSnuVseNKRGpGeDU3qPmabCANg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <script src="script.js" type="module" defer></script>
+    <link rel="stylesheet" href="./css/style.css">
     <title>додаток завдань</title>
-</head>
-<body>
-    <input type="text" data-text-field>
-    <button data-add-todo-btn>додати задачу</button>
-    <div class="container" data-todo-container>
-    </div>
-
-</body>
+  </head>
+  <body>
+    <section class="todo">
+      <div class="text-field-wrapper">
+        <input type="text" data-text-field />
+        <button data-add-todo-btn>додати задачу</button>
+      </div>
+      <div class="container" data-todo-container></div>
+    </section>
+  </body>
 </html>

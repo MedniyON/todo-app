@@ -1,0 +1,92 @@
+body {
+  background-color: hsla(161, 77%, 83%, 1);
+  background-image:
+    radial-gradient(
+      circle at 7% 81%,
+      hsla(172, 91%, 91%, 1) 16%,
+      transparent 53%
+    ),
+    radial-gradient(
+      circle at 5% 1%,
+      hsla(238, 76%, 61%, 1) 7%,
+      transparent 84%
+    ),
+    radial-gradient(
+      circle at 39% 52%,
+      hsla(137, 93%, 64%, 1) 6%,
+      transparent 68%
+    ),
+    radial-gradient(
+      circle at 11% 29%,
+      hsla(201, 97%, 75%, 1) 8%,
+      transparent 74%
+    ),
+    radial-gradient(
+      circle at 90% 50%,
+      hsla(106, 94%, 89%, 1) 2%,
+      transparent 85%
+    );
+  background-blend-mode: normal, normal, normal, normal, normal;
+}
+
+button {
+    cursor: pointer;
+}
+
+.todo {
+  margin: 50px auto;
+  padding: 0.5em;
+  width: 500px;
+  border: 1px solid black;
+  border-radius: 10px;
+  background-color: #8be49f;
+}
+
+.text-field-wrapper {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 10px;
+  padding: 0.5em;
+  margin-bottom: 10px;
+  border-bottom: 2px solid rgb(8, 145, 31);
+  border-radius: 10px;
+}
+
+.text-field-wrapper input {
+  flex-grow: 3;
+  min-height: 30px;
+  border-radius: 10px;
+}
+
+.text-field-wrapper button {
+  flex-grow: 1;
+  min-height: 30px;
+  background-color: #76e672;
+  border-radius: 10px;
+}
+
+.container {
+  width: 100%;
+}
+
+.todo-item {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 10px;
+  border: 1px solid brown;
+  padding: 0.5em;
+  background-color: #76e672;
+  border-radius: 10px;
+}
+
+.todo-item + .todo-item {
+  margin-top: 5px;
+}
+
+.remove-btn {
+    border: none;
+    background-color: transparent;
+}

@@ -38,6 +38,8 @@ const render = () => {
 
     removeBtn.addEventListener("click", () => removeTodo(idx));
 
+    removeBtn.classList.add("remove-btn")
+    todoElement.classList.add("todo-item");
     todoElement.append(removeBtn);
     container.append(todoElement);
   });
